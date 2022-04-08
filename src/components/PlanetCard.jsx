@@ -7,7 +7,13 @@ class PlanetCard extends React.Component {
     const { planetImage } = this.props;
 
     return (
-      <div data-testid="planet-card">
+      <div
+        className={ planetName
+          .toLowerCase()
+          .replace(/ú/g, 'u')
+          .replace(/ê/g, 'e') }
+        data-testid="planet-card"
+      >
         <p data-testid="planet-name">{planetName}</p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
       </div>
