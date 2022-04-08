@@ -9,7 +9,7 @@ div div h2 {
 .container-planets {
   align-items: center;
   animation-direction: alternate;
-  animation-duration: 30s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: planetrotation;
   color: white;
@@ -22,35 +22,35 @@ div div h2 {
 }
 
 .mercurio img {
-  width: 49px;
+  width: 25px;
 }
 
 .venus img {
-  width: 121px;
+  width: 61px;
 }
 
 .terra img {
-  width: 128px;
+  width: 64px;
 }
 
 .marte img {
-  width: 68px;
+  width: 34px;
 }
 
 .jupiter img {
-  width: 1430px;
+  width: 715px;
 }
 
 .saturno img {
-  width: 1206px;
+  width: 603px;
 }
 
 .urano img {
-  width: 510px;
+  width: 205px;
 }
 
 .netuno img {
-  width: 500px;
+  width: 250px;
 }
 
 .container-planets div img {
@@ -78,12 +78,22 @@ div div h2 {
   width: 500px;
 }
 
+.urano img:hover {
+  transition: ease-in 2000ms;
+  width: 500px;
+}
+
+.netuno img:hover {
+  transition: ease-in 2000ms;
+  width: 500px;
+}
+
 /* Rotação dos planetas. FONTE: https://stackoverflow.com/a/13309775/18172843 */
 
 @keyframes planetrotation {
 
   from {
-    transform: translate(-4800px);
+    transform: translate(-3000px);
   }
 
   to {

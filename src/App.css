@@ -12,4 +12,6 @@ body {
   background-color: black;
   background-image: url('./images/background.png');
   background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
 }
