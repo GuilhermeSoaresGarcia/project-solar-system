@@ -1,0 +1,33 @@
+.missions-container {
+  width: 100%;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.1);
+  cursor: default;
+  font-size: 20px;
+  height: 200px;
+  margin: 20px auto;
+  transition: ease-in-out 2s;
+  width: 300px;
+}
+
+.mission-card p:nth-child( 1 ) {
+  font-weight: 900;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+.mission-card:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}

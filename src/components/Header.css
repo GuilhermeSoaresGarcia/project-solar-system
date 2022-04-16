@@ -1,18 +1,37 @@
 header {
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: sunglow;
   background-color: rgba(0, 0, 0, 0.8);
-  box-shadow: 10px 20px 70px rgba(255, 255, 0, 0.4);
+  box-shadow: 10px 0 70px rgba(255, 255, 0, 0.4);
   position: fixed;
   width: 100%;
 }
 
 header h1 {
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: sunglow;
   background-color: yellow;
-  border: 1px solid yellow;
   border-radius: 100%;
-  box-shadow: 10px 20px 70px rgba(255, 255, 0, 0.781);
+  box-shadow: 10px 0 70px rgba(255, 255, 0, 0.781);
   color: black;
   height: 120px;
   margin: 30px auto;
   padding-top: 30px;
   width: 150px;
+}
+
+@keyframes sunglow {
+
+  from {
+    box-shadow: 10px 0 70px rgba(255, 255, 0, 0.8);
+  }
+
+  to {
+    box-shadow: 10px 0 70px rgba(44, 44, 0, 0.9);
+  }
+
 }
