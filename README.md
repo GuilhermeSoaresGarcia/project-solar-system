@@ -1,16 +1,30 @@
-# 🚧 README em construção 🚧
+# Solar System Project
 
-<!-- Olá, Tryber!
+# Contexto
+Este foi o primeiro projeto proposto pela Trybe com o uso de React. Nele, foi necessário compreender como utilizar o método render nos componentes do React, como utilizar o JSX dentro das funções, aprender a criar componentes de classe no React, gerar dinamicamente componentes a partir de arrays, fazer uso de props e validá-las com o uso do PropTypes.
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+> Utilização do JSX;
 
-É essencial que você preencha esse documento por conta própria, ok?
+> Compreensão do método render do React;
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+> Passagem de props e uso de PropTypes para validação de props;
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+> Geração dinâmica de componentes a partir de um array.
 
--->
+## Tecnologias usadas
+
+> Desenvolvido usando: React e CSS.
+
+## Instalando dependências
+```
+npm install
+```
+
+## Executando aplicação
+```
+npm start
+```
+
+## Preview
+
+https://user-images.githubusercontent.com/87393731/188354980-aac4c9b8-ada9-43bb-92db-cfa8655df66e.mp4
